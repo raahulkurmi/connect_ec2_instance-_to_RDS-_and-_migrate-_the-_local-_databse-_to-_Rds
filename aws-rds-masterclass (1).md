@@ -8,7 +8,10 @@ yum -y update
 
 #then you need to have same rds on the AWS
 #connect both of the Databases using
-mysql -h <endpoint of the Rds> -P 3306 -u admin  -p  #-u represnt the user of the RDS you created 
+
+
+mysql -h <endpoint of the Rds> -P 3306 -u admin  -p  
+#-u represnt the user of the RDS you created 
 #after hitting enter it will ask for the password for the admin user you inserted while creating your RDS
 
 
